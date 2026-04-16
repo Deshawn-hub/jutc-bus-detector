@@ -1,0 +1,5 @@
+numpy
+opencv-python
+streamlink
+ultralytics
+firebase-admin

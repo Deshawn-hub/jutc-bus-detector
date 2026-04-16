@@ -1,0 +1,54 @@
+{
+  "ZONE_1": {
+    "polygon": [[897, 157], [779, 616], [184, 547], [749, 149], [899, 154]],
+    "color": [0, 0, 255],
+    "schedule_stop_keywords": ["NAGGO HEAD"],
+    "routes": {
+      "1": "DOWNTOWN",
+      "1A": "HALF WAY TREE",
+      "6": "SPANISH TOWN",
+      "8": "DOWNTOWN",
+      "8A": "HALF WAY TREE",
+      "8AX": "NEW KINGSTON",
+      "12": "DOWNTOWN",
+      "12A": "HALF WAY TREE",
+      "16": "CROSS ROADS",
+      "16A": "CROSS ROADS",
+      "16B": "CONSTANT SPRING",
+      "16BX": "CONSTANT SPRING",
+      "17": "DOWNTOWN",
+      "17A": "HALF WAY TREE",
+      "17AX": "NEW KINGSTON",
+      "17EX": "CROSS ROADS",
+      "18": "DOWNTOWN",
+      "18A": "HALF WAY TREE",
+      "19AX": "PAPINE"
+    }
+  },
+  "ZONE_2": {
+    "polygon": [[115, 270], [127, 479], [680, 175], [723, 137], [545, 124], [116, 267]],
+    "color": [255, 0, 0],
+    "schedule_stop_keywords": ["NAGGO HEAD"],
+    "routes": {
+      "1": "HELLSHIRE",
+      "1A": "HELLSHIRE",
+      "6": "GREATER PORTMORE",
+      "8": "NAGGO HEAD",
+      "8A": "NAGGO HEAD",
+      "8AX": "NAGGO HEAD",
+      "12": "NAGGO HEAD",
+      "12A": "NAGGO HEAD",
+      "16": "GREATER PORTMORE",
+      "16A": "GREATER PORTMORE",
+      "16B": "GREATER PORTMORE",
+      "16BX": "GREATER PORTMORE",
+      "17": "GREATER PORTMORE",
+      "17A": "GREATER PORTMORE",
+      "17AX": "GREATER PORTMORE",
+      "17EX": "GREATER PORTMORE",
+      "18": "GREATER PORTMORE",
+      "18A": "GREATER PORTMORE",
+      "19AX": "GREATER PORTMORE"
+    }
+  }
+}

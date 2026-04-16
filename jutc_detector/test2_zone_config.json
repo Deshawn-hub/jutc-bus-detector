@@ -1,0 +1,50 @@
+{
+  "ZONE_1": {
+    "polygon": [[1249, 380], [1266, 716], [810, 710], [15, 350], [117, 320], [515, 341], [1249, 383]],
+    "color": [0, 0, 255],
+    "schedule_stop_keywords": ["WASHINGTON BOULEVARD"],
+    "routes": {
+      "15A": "PORTMORE",
+      "16A": "PORTMORE",
+      "16B": "PORTMORE",
+      "16BX": "PORTMORE",
+      "21": "SPANISH TOWN",
+      "21AX": "SPANISH TOWN",
+      "21B": "SPANISH TOWN",
+      "23A": "SPANISH TOWN",
+      "24EX": "SPANISH TOWN",
+      "25EX": "SPANISH TOWN",
+      "30": "CHANCERY STREET",
+      "32": "COOREVILLE GARDENS",
+      "32AX": "DUHANEY PARK",
+      "32B": "DUHANEY PARK",
+      "75": "SIX MILES",
+      "75A": "SIX MILES",
+      "75AX": "SIX MILES"
+    }
+  },
+  "ZONE_2": {
+
+    "polygon": [[1040, 203], [1149, 297], [504, 278], [474, 210], [1041, 199]],
+    "color": [255, 0, 0],
+    "schedule_stop_keywords": ["WASHINGTON BOULEVARD"],
+    "routes": {
+      "15A": "CROSS ROADS",
+      "16A": "CROSS ROADS",
+      "16B": "CONSTANT SPRING",
+      "16BX": "CONSTANT SPRING",
+      "21": "HALF WAY TREE",
+      "21AX": "CROSS ROADS",
+      "23A": "HALF WAY TREE",
+      "24EX": "UWI BACK GATE",
+      "25EX": "CONSTANT SPRING",
+      "30": "DOWNTOWN",
+      "32": "DOWNTOWN",
+      "32AX": "CROSS ROADS",
+      "32B": "HALF WAY TREE",
+      "75": "PAPINE",
+      "75A": "UWI BACK GATE",
+      "75AX": "UWI BACK GATE"
+    }
+  }
+}
