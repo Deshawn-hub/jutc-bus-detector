@@ -368,12 +368,23 @@ class RouteScheduleMatcher:
         normalized_keywords = [
             normalize_stop_name(keyword) for keyword in stop_keywords if keyword
         ]
+        if not normalized_keywords:
+            return list(range(len(record["via"])))
 
-        return [
-            index
-            for index, stop_name in enumerate(record["via_normalized"])
-            if any(keyword in stop_name for keyword in normalized_keywords)
-        ]
+        # Preserve caller order so camera configs can express checkpoint priority.
+        # Example: ["DAWKINS DRIVE", "PORTMORE MALL"] will use Dawkins Drive
+        # whenever a route contains both stops, and fall back to Portmore Mall
+        # only for routes that do not include Dawkins Drive.
+        for keyword in normalized_keywords:
+            matched_indices = [
+                index
+                for index, stop_name in enumerate(record["via_normalized"])
+                if keyword in stop_name
+            ]
+            if matched_indices:
+                return matched_indices
+
+        return []
 
     def _record_supports_camera_inference(
         self,
